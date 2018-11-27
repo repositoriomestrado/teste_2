@@ -1,1 +1,1 @@
-web:    java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar /target/joinfaces-boot-jetty-cdi-1.0.0.jar
